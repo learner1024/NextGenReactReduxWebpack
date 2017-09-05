@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "react",
+    "stage-2"
+  ],
+  "retainLines": true,
+  "plugins": [
+    "react-hot-loader/babel"
+  ]
+}
+
+

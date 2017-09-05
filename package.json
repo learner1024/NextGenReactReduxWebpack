@@ -13,7 +13,8 @@
     "build": "npm run build:client && npm run build:server",
     "lint": "eslint --ignore-path .gitignore --ignore-pattern node_modules -- .",
     "lint:watch": "node_modules/.bin/esw --ignore-path .gitignore --ignore-pattern node_modules config build build-dev --watch ",
-    "test": "exit 1"
+    "test": "jest --watch",
+    "verify-tests": "jest --coverage"
   },
   "postcss": {},
   "devDependencies": {

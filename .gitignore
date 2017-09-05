@@ -1,0 +1,9 @@
+node_modules/
+public/vendor.js
+public/app.js
+coverage/
+build/
+dist/
+.tags*
+.idea
+*.log
