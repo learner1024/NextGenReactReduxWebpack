@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import {Redirect, Route, Switch} from 'react-router-dom';
 import Paper from 'material-ui/Paper';
 
-import AppBar from 'containers/AppBar/AppBar';
+import BBAppBar from 'containers/AppBar/BBAppBar';
 
 import ServersPage from 'containers/Home/HomePage';
 
@@ -21,9 +21,9 @@ export class App extends React.Component {
     return (
       <section>
         <Paper zDepth={1} style={{position: 'fixed', width: '100%', zIndex: 10}}>
-          <AppBar>
+          <BBAppBar>
            Application Bar
-          </AppBar>
+          </BBAppBar>
           {loading && <ProgressBar />}
         </Paper>
         <section style={{paddingTop: 50}}>

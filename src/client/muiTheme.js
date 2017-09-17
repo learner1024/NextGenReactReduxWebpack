@@ -1,7 +1,7 @@
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {green600, teal300, teal500, teal700} from 'material-ui/styles/colors';
+import createMuiTheme from 'material-ui/styles/createMuiTheme';
+import {green600, teal300, teal500, teal700} from 'material-ui/colors';
 
-export default getMuiTheme({
+export default createMuiTheme({
   fontSize: 14,
   fontFamily: 'Comfortaa',
   palette: {
